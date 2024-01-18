@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Perspective Blog</title>
+	<link rel="stylesheet" href="{% static 'fontawesome/css/all.min.css' %}"> <!-- https://fontawesome.com/ -->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link type="text/css" rel="stylesheet" href="{% static 'css/templatemo-xtra-blog.css' %}">
+</head>
+<body>
+	<header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="tm-site-header">
+                <div class="mb-3 mx-auto tm-site-logo rounded-circle"><img src="{% static 'Black White Modern Handwriting Design Studio Logo (2).png' %}" alt="" class="rounded-circle"></div>
+                <h1 class="text-center">Perspective</h1>
+            </div>
+            <nav class="tm-nav" id="tm-nav">
+                <ul>
+                    <li class="tm-nav-item"><a href="/" class="tm-nav-link">
+                        <i class="fas fa-home"></i>
+                        Blog Home
+                    </a></li>
+                    <li class="tm-nav-item active"><a href="about.html" class="tm-nav-link">
+                        <i class="fas fa-users"></i>
+                        About Us
+                    </a></li>
+                </ul>
+            </nav>
+            <div class="tm-mb-65">
+                <a rel="nofollow" href="https://fb.com/templatemo" class="tm-social-link">
+                    <i class="fab fa-facebook tm-social-icon"></i>
+                </a>
+                <a href="https://twitter.com" class="tm-social-link">
+                    <i class="fab fa-twitter tm-social-icon"></i>
+                </a>
+                <a href="https://instagram.com" class="tm-social-link">
+                    <i class="fab fa-instagram tm-social-icon"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <main class="tm-main">
+            <!-- Search form -->
+            <div class="row tm-row">
+                <div class="col-12">
+                    <form method="GET" class="form-inline tm-mb-80 tm-search-form">
+                        <input class="form-control tm-search-input" name="query" type="text" placeholder="Search..."
+                            aria-label="Search">
+                        <button class="tm-search-button" type="submit">
+                            <i class="fas fa-search tm-search-icon" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="row tm-row tm-mb-45">
+                <div class="col-12">
+                    <hr class="tm-hr-primary tm-mb-55">
+                    <img src="{% static 'img/about-01.jpg' %}" alt="Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="row tm-row tm-mb-40">
+                <div class="col-12">
+                    <div class="mb-4">
+                        <h2 class="pt-2 tm-mb-40 tm-color-primary tm-post-title">About 'The Perspective'</h2>
+                        <p>
+                            Our main vision in launching an article-publishing project is to spread the least frequently
+                            discussed ideas by establishing networks of innovative thinkers to modify our readers'
+                            perspectives on particular topics. <br> <br>
+
+                            First and foremost, we intend to address topics and subjects that are often overlooked by
+                            other publishers. We will be looking into topics ranging from medical matters such as GMOs
+                            and cultured foods to contentious educational subjects like school uniforms and clothes,
+                            textbook context, and homeschooling. Creating a group of creative writers is another key
+                            aspect of our project's mission, as we try to cover the themes described above and many
+                            more, despite the lack of research on those rather controversial topics. <br> <br>
+
+                            Last but not least, altering the perspectives of our audience on the heated subjects that we
+                            address perfectly matches our main objective, which is to prevent our readers from falling
+                            victim to popular assumptions and misconceptions about such topics. <br> <br>
+
+                            At the end of the day, if we can successfully develop a team of ambitious authors who are
+                            prepared to work hard on our goal of altering popular misconceptions about under-discussed
+                            subjects, we will have accomplished our goal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row tm-row tm-mb-120">
+                <div class="col-lg-4 tm-about-col">
+                    <div class="tm-bg-gray tm-about-pad">
+                        <div class="text-center tm-mt-40 tm-mb-60">
+                            <i class="fas fa-bezier-curve fa-4x tm-color-primary"></i>
+                        </div>
+                        <h2 class="mb-3 tm-color-primary tm-post-title">Background</h2>
+                        <p class="mb-0 tm-line-height-short">
+                            Phasellus pulvinar nisl ornare leo porttitor, et vestibulum lorem semper.
+                            Duis risus ex, molestie sit amet magna in,
+                            pharetra pellentesque est. Curabitur elit metus.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 tm-about-col">
+                    <div class="tm-bg-gray tm-about-pad">
+                        <div class="text-center tm-mt-40 tm-mb-60">
+                            <i class="fas fa-users-cog fa-4x tm-color-primary"></i>
+                        </div>
+                        <h2 class="mb-3 tm-color-primary tm-post-title">Teamwork</h2>
+                        <p class="mb-0 tm-line-height-short">
+                            Suspendisse ullamcorper, mi vel molestie ornare, arcu magna euismod ipsum, in malesuada
+                            nulla magna ut enim.
+                            Morbi lacinia magna sed auctor, vitae nunc cursus.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 tm-about-col">
+                    <div class="tm-bg-gray tm-about-pad">
+                        <div class="text-center tm-mt-40 tm-mb-60">
+                            <i class="fab fa-creative-commons-sampling fa-4x tm-color-primary"></i>
+                        </div>
+                        <h2 class="mb-3 tm-color-primary tm-post-title">Our Core Value</h2>
+                        <p class="mb-0 tm-line-height-short">
+                            Nunc mi ante, suscipit vel dapibus et, volutpat sit amet ante. In tempor nec sem vitae
+                            varius. Aliquam tincidunt orci sem, et imperdiet massa consectetur nec.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="column tm-column tm-mb-60">
+                <div class="col-12">
+                    <hr class="tm-hr-primary  tm-mb-55">
+                </div>
+                <div class="">
+                    <div class="">
+                        <img src="{% static 'Erkaboyeva Shodiyona.jpg' %}" alt="Image" class="img-fluid mr-4">
+                        <div class="media-body" style="margin-top: 50px;">
+                            <h2 class="tm-color-primary tm-post-title mb-2">Erkaboyeva Shodiyona</h2>
+                            <h3 class="tm-h3 mb-3">Founder</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Meet our founder of the project, Erkaboyeva Shodiyona, who is an active participant and holder of the nomination "Zulfiyaxonim," along with being the third place holder in the physics Olimpiad. Besides, she is a four-time winner of the Uzbekistan Chempionship and the holder of the nomination "Umid Nihollari." Shodiyona is also a dedicated person who has worked on projects like "Prevention of HIV and Drugs," "Youth Program," etc.
+                                She is also an intern at the chemistry lab at Milliy University.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="" style="margin-top: 50px;">
+                    <div class="">
+                        <img src="{% static 'Alisher Abduvohobov.jpg' %}" alt="Image" class="img-fluid mr-4">
+                        <div class="" style="margin-top: 50px;">
+                            <h2 class="tm-color-primary tm-post-title mb-2">Alisher Adbuvohobov</h2>
+                            <h3 class="tm-h3 mb-3">Writer</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Meet  our writer Alisher Abduvohobov
+                                An IELTS instructor, research paper producer, 8.5 holder, educator at Registan LC, online writing course mentor, admitted student of the University of Arizona.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="" style="margin-top: 50px;">
+                    <div class="">
+                        <img src="{% static 'Karieva Fazilat.jpg' %}" alt="Image" class="img-fluid mr-4">
+                        <div class="" style="margin-top: 50px;">
+                            <h2 class="tm-color-primary tm-post-title mb-2">Karieva Fazilat</h2>
+                            <h3 class="tm-h3 mb-3">Head Writer</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Meet our head writer Karieva Fazilat.
+                                An ambitious writer who wants to sow the seeds of love in hearts and an aspiring journalist with passion to work against misinformation. Loves nature, stargazing, painting and photography. Holds a band 8 score from the writing section in IELTS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="" style="margin-top: 50px;">
+                    <div class="">
+                        <img src="{% static 'Khudoyor Ahmedov.jpg' %}" alt="Image" class="img-fluid mr-4">
+                        <div class="" style="margin-top: 50px;">
+                            <h2 class="tm-color-primary tm-post-title mb-2">Khudoyor Ahmedov</h2>
+                            <h3 class="tm-h3 mb-3">Co Founder</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Meet Khudoyor Ahmedov, a driven co-founder and sophomore at the esteemed Tashkent State University of Economics. With a diverse educational journey spanning music, art, law, teaching, and economics, Khudoyor is a passionate book lover committed to understanding the intricacies of the world. As a former IELTS instructor, he guided numerous students to success, paving the way for his ongoing studies in economics and chess. Known for his punctuality, Khudoyor firmly believes in sticking to schedules as the key to a seamless journey. In 2023, he achieved remarkable milestones, including a TEDx talk, an IELTS score of 8.0, a full scholarship, and active involvement in various projects, debates, mentoring, podcasts, and networking, showcasing his dynamic interests and impactful contributions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="margin-top: 50px;">
+                <div class="">
+                    <img src="{% static 'Bakhtiyorova Dildora.jpg' %}" alt="Image" class="img-fluid mr-4">
+                    <div class="" style="margin-top: 50px;">
+                        <h2 class="tm-color-primary tm-post-title mb-2">Bakhtiyorova Dildora</h2>
+                        <h3 class="tm-h3 mb-3">Co Founder / Writer</h3>
+                        <p class="mb-0 tm-line-height-short">
+                            Meet Bakhtiyorova Dildora, an ambitious co-founder and writer whose articles and research paper have been published in numerous European journals. With her diverse educational background, Dildora has recently been a semi-finalist in the Zulfiya State Prize and a five-month intern at the Center for Advanced Technologies, where she actively took part in several thesis statements as a researcher assistant.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="margin-top: 50px;">
+                <div class="">
+                    <img src="{% static 'Ozodbek Eshboboyev.jpg' %}" alt="Image" class="img-fluid mr-4">
+                    <div class="" style="margin-top: 50px;">
+                        <h2 class="tm-color-primary tm-post-title mb-2">Ozodbek Eshbobyev</h2>
+                        <h3 class="tm-h3 mb-3">Project manager</h3>
+                        <p class="mb-0 tm-line-height-short">
+                            Meet Ozodbek Eshboboev is a rising senior at Cambridge International College, intending to pursue an interdisciplinary program integrating sociology, philosophy, and political science. Academically, he obtained an IELTS 7.5 and SAT 1500 in 2022 and 2023 respectively. Socially, he co-founded the project Stoic Haven, an online platform whose mission involves exploring and extending stoic philosophy in Uzbek. Additionally, Ozodbek has a knack for public speech, taking part in TEDxCIC as a Speaker in 2023 and a Curator in 2024.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="margin-top: 50px;">
+                <div class="">
+                    <img src="{% static 'Safarov Amir.jpg' %}" alt="Image" class="img-fluid mr-4">
+                    <div class="" style="margin-top: 50px;">
+                        <h2 class="tm-color-primary tm-post-title mb-2">Safarov Amir</h2>
+                        <h3 class="tm-h3 mb-3">Mentor</h3>
+                        <p class="mb-0 tm-line-height-short">
+                            Meet Safarov Amir, a mentor at the Perspective and student at Westminster University. Amir is passionate about politics and philosophy. He is an active participant in the Yale journal summer program and a mentor at the IBRAT summer camp. As  an SAT instructor, Amir taught hundreds of students who scored in the range of 1300–1500.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="margin-top: 50px;">
+                <div class="">
+                    <img src="{% static 'Azizbek Alijonov.jpg' %}" alt="Image" class="img-fluid mr-4">
+                    <div class="" style="margin-top: 50px;">
+                        <h2 class="tm-color-primary tm-post-title mb-2">Azizbek Alijonov</h2>
+                        <h3 class="tm-h3 mb-3">Mentor</h3>
+                        <p class="mb-0 tm-line-height-short">
+                            Meet  Azizbek Alijonov, a high school junior with a passion for math and science. Achieving a 7 in the IELTS Writing section and gearing up for the 2024 International Junior Math Olympiad, He's thrilled to leverage his skills as an editor at 'The Perspective' to contribute to impactful article publication.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <footer class="row tm-row">
+                <hr class="col-12">
+                <div class="col-md-6 col-12 tm-color-gray tm-copyright">
+                    Copyright 2024 Perspective Blog
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/templatemo-script.js' %}"></script>
+</body>
+
+</html>
